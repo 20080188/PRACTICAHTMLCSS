@@ -4,7 +4,7 @@ color: black
 
 
 .titulo_marca_1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: -5%;   
@@ -17,7 +17,7 @@ color: black
 
 .servicio_electricidad{
 
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 20px;
 
@@ -31,7 +31,7 @@ color: black
     background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 50vh;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .electromontajes{
@@ -49,12 +49,12 @@ color: black
 
 .materiales_marca{
 
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .reparaciones_marca{
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .comunicacion{
