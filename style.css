@@ -5,7 +5,7 @@ color: black
 
 .titulo_marca_1{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
     margin-top: -5%;
     
@@ -13,6 +13,7 @@ color: black
 
 .subtitulo_marca_1{
     text-align: center;
+    font-size: 20px;
     
 }
 
@@ -20,6 +21,7 @@ color: black
 
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
+    font-size: 20px;
 
 }
 
@@ -57,6 +59,12 @@ color: black
 .reparaciones_marca{
 
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.comunicacion{
+
+    color: blue;
+    font-size: 5px;
 }
 
 
