@@ -67,9 +67,9 @@ color: black
 
 .electromontajesareco{
 
-    background-image: url("ELECTROMONTAJESARECO.png"); 
+    background-image:( "ELECTROMONTAJESARECO.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+   
 }
