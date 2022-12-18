@@ -16,11 +16,6 @@ color: black
     
 }
 
-.electromecanica{
-
-    text-align: end;
-}
-
 .servicio_electricidad{
 
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -58,3 +53,10 @@ color: black
 
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+.reparaciones_marca{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
