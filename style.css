@@ -29,7 +29,7 @@ color: black
     color: white;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    width: 100vw;
+    width: 1350px;
     height: 50vh;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -69,6 +69,9 @@ color: black
 
     background-image:( "ELECTROMONTAJESARECO.png");
     display: block;
-    margin:auto
+    margin:auto;
+    width: 1350px;
+    height:700px;
    
 }
+
