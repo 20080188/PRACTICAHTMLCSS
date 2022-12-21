@@ -17,14 +17,12 @@ color: black
 }
 
 .servicio_electricidad{
-
     font-family: Arial, Helvetica, sans-serif;
     
 
 }
 
 .footer__marca{
-
     font: size 100%;;
     color: white;
     text-align: center;
@@ -35,43 +33,43 @@ color: black
 }
 
 .materiales_marca{
-
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .reparaciones_marca{
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .comunicacion{
-
     color:rgb(0, 0, 0);
 }
 
 .servicios{
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .instalaciones_areco{
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .tipos_instalaciones{
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .electromontajesareco{
-
     background-image:( "ELECTROMONTAJESARECO.png");
     display: block;
     margin:auto;
     width: 1350px;
     height:700px;
    
+}
+
+.whatsappicono{
+    width: 100px;
+    height:100px;
+    max-width: 100%;
+
 }
 
