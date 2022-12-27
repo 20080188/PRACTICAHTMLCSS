@@ -19,6 +19,7 @@ html {
 
 .servicio_electricidad{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
     
 }
 
@@ -51,7 +52,6 @@ html {
 
 .instalaciones_areco{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 50;
 }
 
 .tipos_instalaciones{
