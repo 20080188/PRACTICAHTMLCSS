@@ -15,6 +15,7 @@ html {
     text-align: center;
     font-size:30px;  
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 .servicio_electricidad{
@@ -91,6 +92,10 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding:0;
+}
+.contacto_celular{
+
+
 }
 
 
