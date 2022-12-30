@@ -74,6 +74,7 @@
     opacity: .5;
     float: center;
     object-fit: cover;
+    
 }
 
 .whatsappicono{
@@ -97,7 +98,6 @@
     padding:0;
 }
 .body{
-
     background-color: darkblue;
 }
 
