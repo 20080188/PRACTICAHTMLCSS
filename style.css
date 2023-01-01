@@ -89,6 +89,9 @@
 .ingenieria_electromecanica{
     text-align: right;
     padding-bottom: 20px;
+    background-color:rgb(126, 125, 124);
+    margin-bottom: 2%;
+    display: flex;
 }
 
 *{
