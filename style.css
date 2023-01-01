@@ -74,7 +74,6 @@
     opacity: .5;
     float: center;
     object-fit: cover;
-    
 }
 
 .whatsappicono{
@@ -96,6 +95,7 @@
     font-size:x-large;
     justify-content: space-between;
     color:#000;
+    opacity: .5;
 }
 
 *{
