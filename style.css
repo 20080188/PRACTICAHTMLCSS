@@ -74,13 +74,14 @@
     opacity: .5;
     float: center;
     object-fit: cover;
+    
 }
 
 .whatsappicono{
     width: 100px;
     height:100px;
     max-width: 100%;
-    float: right;
+    float:inherit;
     padding: 10px;
     border-radius: 50%;  
     
