@@ -51,12 +51,13 @@
 
 .servicios{
     font-family: Arial, Helvetica, sans-serif;   
+    margin-bottom: -10%;
 }
 
 .instalaciones_areco{
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 20px;
-    margin-bottom: -30px;    
+    margin-bottom: -30px;   
 }
 .instalaciones_marca_1{
 font-weight: Arial, Helvetica, sans-serif;
@@ -105,12 +106,13 @@ font-size:30px;
     float:if;
     padding: 10px;
     border-radius: 50%;  
+    
 }
 
 .ingenieria_electromecanica{
     padding-bottom: 20px;
     background-color:rgb(41, 40, 40);
-    margin-bottom: 1%;
+    margin-bottom: -1%;
     display:inline-flexbox;
     height: 18vh;
     font-size:x-large;
