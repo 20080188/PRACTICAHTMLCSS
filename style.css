@@ -6,7 +6,7 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
-     margin-top: 10px;
+    margin-top: 10px;
     margin-bottom: 3px;
 }
 
@@ -22,7 +22,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     margin-top: 15%;
-    
+    margin-bottom: -0.5%;
 }
 
 .footer__marca{
@@ -35,7 +35,6 @@
     padding-bottom: 5px;
     padding-left: 40px; 
     margin-top: 120px;
-    
 }
 
 .materiales_marca{
@@ -45,6 +44,7 @@
 
 .reparaciones_marca{
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15%;
 }
 
 .comunicacion{
@@ -53,31 +53,35 @@
 
 .servicios{
     font-family: Arial, Helvetica, sans-serif;   
-    margin-top: -18%;
+    margin-top: 15%;
 }
 
 .instalaciones_areco{
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 20px;
-    margin-top: -25%;   
+    padding-bottom: 20px;   
+    margin-top: 5%;
 }
+
 .instalaciones_marca_1{
 font-weight: Arial, Helvetica, sans-serif;
 text-align: center;
 font-size:30px;
 }
+
 .reparaciones_marca_1{
     font-weight: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size:30px;
     box-sizing: border-box;   
 }
+
 .repuestos_marca_1{
     font-weight: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size:30px;
     box-sizing: border-box;
 }
+
 .tipos_instalaciones{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 50px;
@@ -109,7 +113,8 @@ font-size:30px;
     border-radius: 50%;  
     margin-top: -10%;
     margin-bottom: -25%;
-    position: relative;
+    position:relative;
+    float: right;
 }
 
 .ingenieria_electromecanica{
