@@ -33,7 +33,7 @@
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 5px;
     padding-left: 40px; 
-    margin-top: 20px;
+    margin-top: 120px;
     
 }
 
@@ -104,7 +104,6 @@ font-size:30px;
     width: 100px;
     height:100px;
     max-width: 100%;
-    float:if;
     padding: 10px;
     border-radius: 50%;  
     margin-top: -22%;
