@@ -100,59 +100,6 @@ font-size:30px;
     object-fit: cover;
     background: linear-gradient(to bottom, top, left, right,);
 }
-.electromontajes_areco{
-    background-image:("ELECTROMONTAJESARECO.png");
-    display: block;
-    width: 100vw;
-    height: 80vh;
-    box-sizing: border-box;
-    padding: 0;
-    margin-top: -80px;
-    margin-right: -90px;
-    margin-bottom: -225px;
-    max-width: 100%;
-    box-shadow: 5px 10px 50px #000;
-    opacity: .4;
-    float: center;
-    object-fit: cover;
-    background: linear-gradient(to bottom, top, left, right,);
-}
-
-.electromontajes__areco{
-    background-image:("ELECTROMONTAJESARECO.png");
-    display: block;
-    width: 100vw;
-    height: 80vh;
-    box-sizing: border-box;
-    padding: 0;
-    margin-top: -80px;
-    margin-right: -90px;
-    margin-bottom: -225px;
-    max-width: 100%;
-    box-shadow: 5px 10px 50px #000;
-    opacity: .4;
-    float: center;
-    object-fit: cover;
-    background: linear-gradient(to bottom, top, left, right,);
-}
-
-.electromontajes_areco_{
-    background-image:("ELECTROMONTAJESARECO.png");
-    display: block;
-    width: 100vw;
-    height: 80vh;
-    box-sizing: border-box;
-    padding: 0;
-    margin-top: -85px;
-    margin-right: -90px;
-    margin-bottom: -225px;
-    max-width: 100%;
-    box-shadow: 5px 10px 50px #000;
-    opacity: .4;
-    float: center;
-    object-fit: cover;
-    background: linear-gradient(to bottom, top, left, right,);
-}
 
 .whatsappicono{
     width: 100px;
@@ -163,7 +110,6 @@ font-size:30px;
     margin-top: -10%;
     margin-bottom: -25%;
     position: relative;
-    
 }
 
 .ingenieria_electromecanica{
@@ -173,8 +119,7 @@ font-size:30px;
     display:inline-flexbox;
     height: 18vh;
     font-size:x-large;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 *{
