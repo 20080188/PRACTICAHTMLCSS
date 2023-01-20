@@ -123,6 +123,7 @@ font-size:30px;
 .whatsappicono:hover{
 
     text-decoration: none;
+    transform: scale(1.1);
 }
 
 .ingenieria_electromecanica{
