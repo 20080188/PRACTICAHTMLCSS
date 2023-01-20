@@ -113,9 +113,9 @@ font-size:30px;
     max-width: 100%;
     padding: 10px;
     border-radius: 50%;  
-    text-align: end;
     margin-bottom: -50%;
     position:fixed;
+    text-align: end;
     z-index: 100;
 }
 
