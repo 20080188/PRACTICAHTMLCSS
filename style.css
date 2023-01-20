@@ -119,6 +119,11 @@ font-size:30px;
     z-index: 100;
 }
 
+.whatsappicono:hover{
+
+    text-decoration: none;
+}
+
 .ingenieria_electromecanica{
     padding-bottom: 20px;
     background-color:rgb(34, 2, 107);
