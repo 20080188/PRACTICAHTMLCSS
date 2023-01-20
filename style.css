@@ -117,6 +117,7 @@ font-size:30px;
     position:fixed;
     text-align: end;
     z-index: 100;
+    transition:ease 0.5s;
 }
 
 .whatsappicono:hover{
