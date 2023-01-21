@@ -219,6 +219,21 @@ transform:scale(1.1);
     transition:ease 1s;
     transform: scale (2.2) ;
 }
+
+.nav-toggle{
+ 
+    color:white;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+    
+}
+
+
+
+
 /*
 .body{
     background-color: darkblue;
