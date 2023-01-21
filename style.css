@@ -27,6 +27,13 @@
     text-align: center;
 }
 
+.servicio_electricidad:hover{
+
+transition:ease 1.5s;
+text-decoration: none;
+transform:scale(1.1);
+}
+
 .footer__marca{
     color: white;
     text-align: center;
@@ -74,6 +81,13 @@ box-sizing: border-box;
 margin-top: 10px;
 }
 
+.instalaciones_marca_1:hover{
+
+    transition:ease 1.5s;
+    text-decoration: none;
+    transform:scale(1.1);
+}
+
 .reparaciones_marca_1{
     font-weight: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -83,12 +97,26 @@ margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.reparaciones_marca_1:hover{
+
+    transition:ease 1.5s;
+text-decoration: none;
+transform:scale(1.1);
+}
+
 .repuestos_marca_1{
     font-weight: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
     margin-top: 10px;
+}
+
+.repuestos_marca_1:hover{
+    transition:ease 1.5s;
+    text-decoration: none;
+    transform:scale(1.1);
+
 }
 
 .tipos_instalaciones{
@@ -214,6 +242,7 @@ margin-top: 10px;
         width: 100%;
 }
 }
+*/
 
 
 
