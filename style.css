@@ -81,7 +81,6 @@ margin-top: 10px;
 }
 
 .instalaciones_marca_1:hover{
-
     transition:ease 1.5s;
     text-decoration: none;
     transform:scale(1.1);
@@ -97,10 +96,9 @@ margin-top: 10px;
 }
 
 .reparaciones_marca_1:hover{
-
     transition:ease 1.5s;
-text-decoration: none;
-transform:scale(1.1);
+    text-decoration: none;
+    transform:scale(1.1);
 }
 
 .repuestos_marca_1{
@@ -115,7 +113,6 @@ transform:scale(1.1);
     transition:ease 1.5s;
     text-decoration: none;
     transform:scale(1.1);
-
 }
 
 .tipos_instalaciones{
@@ -157,7 +154,6 @@ transform:scale(1.1);
 }
 
 .whatsappicono:hover{
-
     text-decoration: none;
     transform: scale(1.3);
 }
@@ -184,16 +180,15 @@ transform:scale(1.1);
 .nav{
     display:flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .nav-link{
-
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .logo{
-
     font-size: 30px;
     font-weight: bold;
     padding: 0 40px;
@@ -202,14 +197,12 @@ transform:scale(1.1);
 }
 
 .nav-menu{
-
     display: flex;
     margin-right: 40px;
     list-style: none;
 }
 
 .nav-menu-item{
-
     font-size: 20px;
     margin: 0 10px;
     line-height: 80px;
@@ -225,22 +218,18 @@ transform:scale(1.1);
 
 
 .nav-menu-link:hover{
-
-
     background-color: #034574;
     transition:ease 1s;
     transform: scale (2.2) ;
 }
 
 .nav-toggle{
- 
     color:white;
     background: none;
     border: none;
     font-size: 28px;
     padding: 0 20px;
-    line-height: 60px;
-    
+    line-height: 60px; 
 }
 
 
