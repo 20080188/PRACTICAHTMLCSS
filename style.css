@@ -22,8 +22,9 @@
 .servicio_electricidad{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-bottom: 15%;
+    text-align: center;
 }
 
 .footer__marca{
@@ -147,9 +148,58 @@ margin-top: 10px;
     padding:0;
 }
 
+.header{
+    position: fixed;
+    background-color: rgb(77, 118, 231);
+    width: 100%;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.logo{
+
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    
+}
+
+.nav-menu{
+
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.nav-menu-link:hover{
+
+   
+    transition:ease 1s;
+    transform: scale (2.2) ;
+}
+/*
 .body{
     background-color: darkblue;
 }
+
 
 @media only screen and (max-width:800px){
 .body {
