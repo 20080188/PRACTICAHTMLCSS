@@ -196,7 +196,6 @@ margin-top: 10px;
     font-weight: bold;
     padding: 0 40px;
     line-height: 80px;
-    
 }
 
 .nav-menu{
@@ -235,7 +234,10 @@ margin-top: 10px;
     line-height: 60px; 
 }
 
+.nav-toggle:hover{
 
+
+}
 
 
 /*
