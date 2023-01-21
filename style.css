@@ -95,6 +95,7 @@ margin-top: 10px;
     padding-left: 50px;
 }
 
+/*
 .electromontajesareco{
     background-image:("ELECTROMONTAJESARECO.png");
     display: block;
@@ -112,6 +113,8 @@ margin-top: 10px;
     object-fit: cover;
     background: linear-gradient(to bottom, top, left, right,);
 }
+
+*/
 
 .whatsappicono{
     width: 80px;
