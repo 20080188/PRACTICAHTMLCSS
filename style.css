@@ -68,6 +68,7 @@
 font-weight: Arial, Helvetica, sans-serif;
 text-align: center;
 font-size:35px;
+box-sizing: border-box;
 }
 
 .reparaciones_marca_1{
