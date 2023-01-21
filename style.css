@@ -45,7 +45,7 @@
 .reparaciones_marca{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 15%;
-    margin-bottom: 35%;
+    margin-bottom: 30%;
 }
 
 .comunicacion{
@@ -76,7 +76,8 @@ box-sizing: border-box;
     text-align: center;
     font-size:35px;
     box-sizing: border-box;   
-    margin-top: 300px;
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
 
 .repuestos_marca_1{
@@ -114,7 +115,7 @@ box-sizing: border-box;
     height: 80px;
     max-width: 100%;
     padding: 5px;
-    border-radius: 50%;  
+    border-radius: 80%;  
     bottom: 20px;
     position:fixed;
     transition:ease 1s;
