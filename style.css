@@ -216,10 +216,7 @@ transform:scale(1.1);
     line-height: 80px;
     text-transform: uppercase;
 }
-
 .nav-menu-link:hover{
-
-   
     transition:ease 1s;
     transform: scale (2.2) ;
 }
