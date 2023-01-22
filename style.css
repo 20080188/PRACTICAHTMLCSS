@@ -30,6 +30,7 @@
 transition:ease 1.5s;
 text-decoration: none;
 transform:scale(1.1);
+cursor:default;
 }
 
 .footer__marca{
@@ -86,6 +87,7 @@ margin-top: 10px;
     transition:ease 1.5s;
     text-decoration: none;
     transform:scale(1.1);
+    cursor: default;
 }
 
 .reparaciones_marca_1{
@@ -101,6 +103,7 @@ margin-top: 10px;
     transition:ease 1.5s;
     text-decoration: none;
     transform:scale(1.1);
+    cursor: default;
 }
 
 .repuestos_marca_1{
@@ -115,6 +118,7 @@ margin-top: 10px;
     transition:ease 1.5s;
     text-decoration: none;
     transform:scale(1.1);
+    cursor: default;
 }
 
 .tipos_instalaciones{
@@ -158,6 +162,7 @@ margin-top: 10px;
 .whatsappicono:hover{
     text-decoration: none;
     transform: scale(1.3);
+    cursor: pointer;
 }
 
 .ingenieria_electromecanica{
@@ -236,10 +241,17 @@ margin-top: 10px;
     font-size: 28px;
     padding: 0 20px;
     line-height: 60px; 
+    display: none;
+    cursor: pointer;
+}
+
+.nav-toggle{
+    display: block;
 }
 
 .nav-toggle:hover{
-    display:block;
+    
+    float: right;
 }
 
 .nav-menu_visible{
