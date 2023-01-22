@@ -27,7 +27,6 @@
 }
 
 .servicio_electricidad:hover{
-
 transition:ease 1.5s;
 text-decoration: none;
 transform:scale(1.1);
@@ -226,9 +225,11 @@ margin-top: 10px;
 
 
 .nav-menu-link:hover{
-    background-color: #034574;
+    
     transition:ease 1s;
-    transform: scale (2.2) ;
+    transform: scale (2.2);
+    
+    
 }
 
 .nav-toggle{
@@ -241,8 +242,9 @@ margin-top: 10px;
 }
 
 .nav-toggle:hover{
-
-
+    transition:ease 1.5s;
+    text-decoration: none;
+    transform:scale(1.1);
 }
 
 
