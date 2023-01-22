@@ -175,7 +175,7 @@ margin-top: 10px;
 
 .header{
     position: fixed;
-    background-color: rgb(77, 118, 231);
+    background-color: rgb(63, 70, 90);
     width: 100%;
 }
 
@@ -210,13 +210,11 @@ margin-top: 10px;
     left: 0;
     top: 60px;
     height: calc(100% - 60px);
-   
     margin: 0 10px;
     line-height: 80px;
     text-transform: uppercase;
     width: max-content;
 }
-
 
 .nav-menu-link{
     padding: 8px 12px;
@@ -224,12 +222,11 @@ margin-top: 10px;
 }
 
 
-.nav-menu-link:hover{
-    
-    transition:ease 1s;
-    transform: scale (2.2);
-    
-    
+.nav-menu-link:hover,
+.nav-menu-link_active{
+    background: color #034574;;
+    color:rgb(70, 116, 155);
+    transition: 0.8s;
 }
 
 .nav-toggle{
@@ -242,9 +239,7 @@ margin-top: 10px;
 }
 
 .nav-toggle:hover{
-    transition:ease 1.5s;
-    text-decoration: none;
-    transform:scale(1.1);
+    display:block;
 }
 
 
