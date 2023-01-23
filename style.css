@@ -163,12 +163,14 @@ cursor:default;
     cursor: pointer;
 }
 
+/*
 .ingenieria_electromecanica{
     padding-bottom: 20px;
     background-color:rgb(34, 2, 107);
     height: 18vh;
     font-size:x-large;  
 }
+*/
 
 *{
     box-sizing: border-box;
