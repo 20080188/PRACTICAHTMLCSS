@@ -76,11 +76,11 @@ cursor:default;
 }
 
 .instalaciones_marca_1{
-font-weight: Arial, Helvetica, sans-serif;
-text-align: center;
-font-size:35px;
-box-sizing: border-box;
-margin-top: 10px;
+    font-weight: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:35px;
+    box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .instalaciones_marca_1:hover{
@@ -125,7 +125,6 @@ margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 50px;
 }
-
 /*
 .electromontajesareco{
     background-image:("ELECTROMONTAJESARECO.png");
@@ -146,7 +145,6 @@ margin-top: 10px;
 }
 
 */
-
 .whatsappicono{
     width: 100px;
     height: 100px;
