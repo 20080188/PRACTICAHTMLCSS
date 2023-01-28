@@ -204,8 +204,9 @@ cursor:default;
     display:flex;
     justify-content: space-between;
     margin: 0 auto;
-    height: 150px;
+    height: 90px;
     margin-top: 30px;
+    margin-right: 30px;
 }
 
 .nav-link{
@@ -244,7 +245,6 @@ cursor:default;
     border-radius: 3px;
 }
 
-
 .nav-menu-link:hover,
 .nav-menu-link_active{
     background: color #034574;;
@@ -261,14 +261,7 @@ cursor:default;
     line-height: 60px; 
     display: none;
     cursor: pointer;
-}
-
-.nav-toggle{
     display: block;
-}
-
-.nav-toggle:hover{
-    float: right;
 }
 
 .nav-menu_visible{
