@@ -156,8 +156,10 @@ cursor:default;
     float: center;
     object-fit: cover;
     background: linear-gradient(to bottom, top, left, right,);
-}
 
+
+    (SON LAS CARACTERÍSTICAS DE LA IMÁGEN QUE HABÍA COLOCADO DE LA ORUGA).
+}
 */
 
 .whatsappicono{
@@ -275,6 +277,10 @@ cursor:default;
 }
 
 
+(MEDIA QUERY PARA LA IMÁGEN):
+              !
+              !
+              !
 @media only screen and (max-width:800px){
 .body {
     display: block;
