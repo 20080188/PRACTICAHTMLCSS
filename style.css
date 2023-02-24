@@ -260,10 +260,12 @@ cursor:default;
     border: none;
     font-size: 28px;
     padding: 0 20px;
-    line-height: 20px; 
+    line-height: 20px;
     display: none;
     cursor: pointer;
     display: block;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 
