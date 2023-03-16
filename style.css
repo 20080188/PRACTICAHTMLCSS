@@ -218,7 +218,7 @@ cursor:default;
 }
 
 .logo{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     padding: 0 40px;
     line-height: 80px;
@@ -231,8 +231,8 @@ cursor:default;
 }
 
 .nav-menu-item{
-    flex-direction: column;
-    margin-right: 50px;
+    /*flex-direction: column;*/
+    margin-right: 100px;
     font-size: 20px;
     top: 50px;
     height: calc(100% - 60px);
@@ -243,8 +243,9 @@ cursor:default;
 }
 
 .nav-menu-link{
-    padding: 12px;
+    padding: 10px;
     border-radius: 3px;
+    margin-right:0;
 }
 
 .nav-menu-link:hover,
