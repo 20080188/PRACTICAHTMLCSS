@@ -224,6 +224,13 @@ cursor:default;
     line-height: 80px;
 }
 
+.logo:hover{
+    transition:ease 2s;
+    text-decoration: none;
+    transform:scale(1.1);
+    color: rgb(2, 2, 82)
+}
+
 .nav-menu{
     display: flex;
     margin-right: 80px;
