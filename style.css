@@ -207,7 +207,7 @@ cursor:default;
     display:flex;
     justify-content: space-between;
     margin: 0 auto;
-    height: 90px;
+    height: 20px;
     margin-top: 30px;
     margin-right: 20px;
 }
@@ -252,7 +252,8 @@ cursor:default;
 .nav-menu-link{
     padding: 10px;
     border-radius: 3px;
-    margin-right:0;
+    margin-right: -10px;;
+    font-size: 17px;
 }
 
 .nav-menu-link:hover,
@@ -275,7 +276,6 @@ cursor:default;
     margin-right: 5px;
     margin-left: 5px;
 }
-
 
 /*
 .body{
