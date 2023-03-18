@@ -3,6 +3,10 @@
     overflow-y: hidden;
     scroll-behavior: smooth;
 }
+
+:root{
+    scroll-behavior: smooth;
+}
 /*
 .bg-dark{
     --bs-bg-opacity: .5 !important;
