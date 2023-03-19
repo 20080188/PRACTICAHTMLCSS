@@ -96,7 +96,7 @@ cursor:default;
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-bottom: -5%;
     scroll-behavior: smooth;
 }
@@ -250,6 +250,7 @@ margin-right:100%;
     display: flex;
     margin-right: 80px;
     list-style: none;
+    font-family:Arial;
 }
 
 .nav-menu-item{
