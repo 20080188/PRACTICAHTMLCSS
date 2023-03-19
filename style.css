@@ -214,8 +214,15 @@ cursor:default;
     justify-content: space-between;
     margin: 0 auto;
     height: 20px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-right: 20px;
+}
+
+.hamburguer{
+position:fixed;
+margin-top:20px;
+margin-right:100%;
+
 }
 
 .nav-link{
@@ -265,7 +272,7 @@ cursor:default;
 .nav-menu-link:hover,
 .nav-menu-link_active{
     background: color #034574;;
-    color:rgb(70, 116, 155);
+    color:rgb(7, 20, 32);
     transition: 1s;
 }
 
