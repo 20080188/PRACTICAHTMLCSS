@@ -50,9 +50,9 @@ cursor:default;
 }
 
 .footer__marca{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    background-color: rgb(109, 60, 243);
+    background-color: rgb(255, 255, 255);
     width: 1350px;
     height: 45vh;
     font-family: Arial, Helvetica, sans-serif;
