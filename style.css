@@ -40,13 +40,14 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     margin-top: 20%;
     margin-bottom: 15%;
     text-align: center;
+    transition:ease 2s;
 }
 
 .servicio_electricidad:hover{
-transition:ease 1.5s;
-text-decoration: none;
-transform:scale(1.1);
-cursor:default;
+    transition:ease 1.5s;
+    text-decoration: none;
+    transform:scale(1.1);
+    cursor:default;  
 }
 
 .footer__marca{
@@ -267,6 +268,7 @@ margin-right:100%;
     margin-right: 80px;
     list-style: none;
     font-family:Arial;
+    transition:ease 1.5s;
 }
 
 .nav-menu-item{
@@ -286,6 +288,8 @@ margin-right:100%;
     border-radius: 3px;
     margin-right: -10px;;
     font-size: 17px;
+    transition:ease 1.5s;
+    transform:scale(1.1);
     
 }
 
