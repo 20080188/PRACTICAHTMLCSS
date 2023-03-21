@@ -284,7 +284,6 @@ margin-right:100%;
 }
 
 .nav-menu-item:hover{
-
     transition:ease 1.5s;
     transform:scale(1.1);
 }
