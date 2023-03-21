@@ -38,9 +38,9 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     margin-top: 20%;
-    margin-bottom: 15%;
+    margin-bottom: 30%;
     text-align: center;
-    transition: 3s;
+    transition: 2s;
 }
 
 .servicio_electricidad:hover{
@@ -102,9 +102,9 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
-    margin-top: 25%;
+    margin-top: 10%;
     margin-bottom: -5%;
-    scroll-behavior: smooth;
+    transition: 2s;
 }
 
 .instalaciones_marca_1:hover{
@@ -112,6 +112,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     text-decoration: none;
     transform:scale(1.1);
     cursor: default;
+    transition:ease 1.5s;
+    transform:scale(1.1);
 }
 
 .reparaciones_marca_1{
@@ -121,6 +123,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     box-sizing: border-box;   
     margin-top: 5px;
     margin-bottom: 10px;
+    transition: 2s;
 }
 
 .reparaciones_marca_1:hover{
@@ -137,6 +140,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     box-sizing: border-box;
     margin-top: 10%;
     margin-left: 20px;
+    transition: 2s;
 }
 
 .repuestos_marca_1:hover{
@@ -342,6 +346,15 @@ margin-right:100%;
 }
 }
 */
+
+.contenedor{
+    background-image: url(electricidad.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+
+}
 
 
 
