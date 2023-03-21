@@ -236,6 +236,7 @@ margin-right:100%;
 .nav-link{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    transition: 1s;
 }
 
 .logo{
@@ -285,6 +286,7 @@ margin-right:100%;
     border-radius: 3px;
     margin-right: -10px;;
     font-size: 17px;
+    
 }
 
 .nav-menu-link:hover,
