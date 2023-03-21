@@ -41,6 +41,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     margin-bottom: 30%;
     text-align: center;
     transition: 2s;
+    
 }
 
 .servicio_electricidad:hover{
@@ -347,14 +348,7 @@ margin-right:100%;
 }
 */
 
-.contenedor{
-    background-image: url(electricidad.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
 
-}
 
 
 
