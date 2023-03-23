@@ -108,13 +108,19 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     transition: 2s;
 }
 
+
+
 .instalaciones_marca_1:hover{
-    transition:ease 1.5s;
+    transition_duration: 1.5s;
+    transition-timing-function: ease;
     text-decoration: none;
     transform:scale(1.1);
     cursor: default;
-    transition:ease 1.5s;
-    transform:scale(1.1);
+    transition-delay: ease-out;
+}
+
+.instalaciones_marca_1:hover::before{
+    clip-path: polygon(0 0, 99% 0, 99% 100%, 0 100%);
 }
 
 .reparaciones_marca_1{
