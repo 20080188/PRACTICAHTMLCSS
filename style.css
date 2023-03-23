@@ -60,9 +60,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     padding-bottom: 5px;
     padding-left: 40px; 
     margin-top: 220px;
-    background-image: url(FONDODEPANTALLAWEB.png);
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
 .materiales_marca{
@@ -210,7 +207,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 */
 
 *{
-    
     box-sizing: border-box;
     margin: 0;
     padding:0;
@@ -349,8 +345,14 @@ margin-right:100%;
         width: 100%;
 }
 }
-*/
 
+
+.fondo_pantalla_web{
+
+    background-image: url(FONDODEPANTALLAWEB.png);
+    
+}
+*/
 
 
 
