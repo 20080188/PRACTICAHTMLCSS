@@ -37,6 +37,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .servicio_electricidad{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
+    font-size: 20px;
     margin-top: 20%;
     margin-bottom: 30%;
     text-align: center;
@@ -304,7 +305,7 @@ margin-right:100%;
 .nav-menu-link:hover,
 .nav-menu-link_active{
     background: color #034574;;
-    color:rgb(61, 123, 180);
+    color:rgb(105, 162, 216);
     
 }
 
