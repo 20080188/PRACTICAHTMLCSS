@@ -28,21 +28,40 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .subtitulo_marca_1{
     text-align: center;
     font-size:  30px;  
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     box-sizing: border-box;
     margin-top: -1%;
     margin-bottom: 100px;
 }
 
 .servicio_electricidad{
-    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-family: Arial;
     font-weight: 500;
     font-size: 20px;
     margin-top: 20%;
     margin-bottom: 30%;
     text-align: center;
     transition: 2s;
+    animation-name:desplazamiento;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: left-right;
+
 }
+
+@keyframes desplazamiento{
+
+from { position:relative;
+       left:-50%;
+    }
+
+to{
+    left:0%;
+}
+}
+
+
 
 /*
 .servicio_electricidad:after{
@@ -54,6 +73,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     left:0;
     background: dodgerblue;
 }
+
 */
 
 .servicio_electricidad:hover{
@@ -62,6 +82,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     transform:scale(1.1);
     cursor:default;  
 }
+
 
 .footer__marca{
     color: rgb(0, 0, 0);
@@ -316,8 +337,7 @@ margin-right:100%;
     margin-right: -10px;;
     font-size: 17px;
     transition:ease 1.5s;
-    transform:scale(1.1);
-    
+    transform:scale(1.1); 
 }
 
 /*
