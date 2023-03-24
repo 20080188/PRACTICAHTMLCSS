@@ -45,6 +45,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     position: relative;
 }
 
+/*
 .servicio_electricidad:after{
     content:"";
     
@@ -54,7 +55,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     left:0;
     background: dodgerblue;
 }
-
+*/
 
 .servicio_electricidad:hover{
     transition:ease 1.5s;
@@ -290,21 +291,9 @@ margin-right:100%;
     list-style: none;
     font-family:Arial;
     transition:ease 1.5s;
-    margin: 2rem, 1.5rem;
-    display:flex;
-    justify-content:space-evenly;
 }
 
-.nav-menu::after{
-    content:"";
-    position: absolute;
-    right:0;
-    bottom:0;
-    left:0;
-    width:2px;
-    height:100%;
-    background:dodgerblue;
-}
+
 
 .nav-menu-item{
     /*flex-direction: column;*/
@@ -330,13 +319,24 @@ margin-right:100%;
     font-size: 17px;
     transition:ease 1.5s;
     transform:scale(1.1);
+    
+}
+
+.nav-menu-link::after{
+    content:"";
+    position: absolute;
+    right:0;
+    bottom:0;
+    left:0;
+    width:2px;
+    height:100%;
+    background:dodgerblue;
 }
 
 .nav-menu-link:hover,
 .nav-menu-link_active{
     background: color #034574;;
-    color:rgb(105, 162, 216);
-    
+    color:rgb(105, 162, 216); 
 }
 
 .nav-toggle{
