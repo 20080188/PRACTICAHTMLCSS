@@ -69,7 +69,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     background-color: rgb(255, 255, 255);
     width: 1350px;
     height: 45vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
+    font-size:large;
     padding-bottom: 5px;
     padding-left: 40px; 
     margin-top: 220px;
@@ -289,6 +290,20 @@ margin-right:100%;
     list-style: none;
     font-family:Arial;
     transition:ease 1.5s;
+    margin: 2rem, 1.5rem;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.nav-menu::after{
+    content:"";
+    position: absolute;
+    right:0;
+    bottom:0;
+    left:0;
+    width:2px;
+    height:100%;
+    background:dodgerblue;
 }
 
 .nav-menu-item{
