@@ -89,11 +89,10 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .footer__marca{
     color: rgb(0, 0, 0);
     text-align: center;
-    
     width: 1350px;
     height: 45vh;
-    font-family: Arial;
-    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
     padding-bottom: 10px;
     padding-left: 40px; 
     margin-top: 240px;
