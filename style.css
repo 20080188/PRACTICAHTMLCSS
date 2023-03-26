@@ -40,7 +40,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     font-weight: 505;
     font-size: 18px;
     margin-top: 20%;
-    margin-bottom: 30%;
+    margin-bottom: 50%;
     color:var(--dark-blue);
     display:inline-block;
     text-align: center;
@@ -69,7 +69,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     content:"";
     position: absolute;
     width:100%;
-    height: 4px;
+    height: 2px;
     bottom:0;
     left:0;
     background-color: rgb(62, 113, 224);
@@ -104,6 +104,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .servicio_electricidad:hover:after{
     transform: scale(1);
     transform-origin: bottom left;
+}
+
+.servicio_trabajo{
+    height:120vh;
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
 }
 
 .footer__marca{
@@ -227,8 +232,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
-    margin-top: -30%;
-    margin-bottom: -5%;
+    margin-top: -5%;
+    margin-bottom: 0%;
     transition: .8s;
     color:var(--dark-blue);
     display:inline-block;
@@ -270,6 +275,10 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     transform-origin: bottom left;
 }
 
+.instalaciones_trabajo{
+    height:120vh;
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
+}
 .repuestos_marca_1{
     font-weight: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -292,6 +301,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     animation-timing-function:cubic-bezier(.04,.37,1,.7);
 }
 
+.reparaciones_trabajo{
+    height:120vh;
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
+}
+
 .repuestos_marca_1:hover{
     /*background: rgb(68, 124, 228);*/
     transition:ease 1.5s;
@@ -304,7 +318,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     content:"";
     position: absolute;
     width:100%;
-    height: 4px;
+    height: 1px;
     bottom:0;
     left:0;
     background-color: rgb(62, 113, 224);
@@ -487,7 +501,7 @@ margin-right:100%;
     content:"";
     position: absolute;
     width:100%;
-    height: 4px;
+    height: 2px;
     bottom:0;
     left:0;
     background-color: rgb(62, 113, 224);
