@@ -128,6 +128,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     animation-timing-function:cubic-bezier(0,.7,.99,.38);
 }
 
+.footer_trabajo{
+    height:45vh;
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
+}
+
 .materiales_marca{
     font-family:Arial, Helvetica, sans-serif;
     padding-left: 50px;
@@ -232,8 +237,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
-    margin-top: -5%;
-    margin-bottom: 0%;
+    margin-top: -1%;
+    margin-bottom: 5%;
     transition: .8s;
     color:var(--dark-blue);
     display:inline-block;
@@ -251,8 +256,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 
 .instalaciones_marca_1:hover{
     /*background: rgb(68, 124, 228);*/
-    transition:ease 1.5s;
-    text-decoration: none;
+    transition:1.5s;
+    text-decoration:none;
     transform:scale(1.3);
     cursor:default;  
 }
@@ -276,9 +281,16 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .instalaciones_trabajo{
+    height:90vh;
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
+}
+
+
+.reparaciones_trabajo{
     height:120vh;
     background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
 }
+
 .repuestos_marca_1{
     font-weight: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -299,11 +311,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     animation-iteration-count: 1;
     animation-direction: left-right;
     animation-timing-function:cubic-bezier(.04,.37,1,.7);
-}
-
-.reparaciones_trabajo{
-    height:120vh;
-    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
 }
 
 .repuestos_marca_1:hover{
@@ -331,10 +338,16 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     transform: scale(1);
     transform-origin: bottom left;
 }
+
+.repuestos_trabajo{
+    height:120vh;
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
+}
+
 .tipos_instalaciones{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
     font-size:medium;
     position:static;
     margin-left: 12%;
