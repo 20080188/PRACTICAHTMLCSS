@@ -56,6 +56,14 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     animation-timing-function:cubic-bezier(.04,.37,1,.7);
 }
 
+.servicio_electricidad:hover{
+    /*background: rgb(68, 124, 228);*/
+    transition:ease 1.5s;
+    text-decoration: none;
+    transform:scale(1.3);
+    cursor:default;  
+}
+
 .servicio_electricidad:after{
     content:"";
     position: absolute;
@@ -83,7 +91,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 /*
 .servicio_electricidad:after{
     content:"";
-    
     width:100%;
     height: 4px;
     bottom:0;
@@ -92,14 +99,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 */
-
-.servicio_electricidad:hover{
-    /*background: rgb(68, 124, 228);*/
-    transition:ease 1.5s;
-    text-decoration: none;
-    transform:scale(1.3);
-    cursor:default;  
-}
 
 .servicio_electricidad:hover:after{
     transform: scale(1);
@@ -123,17 +122,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     animation-timing-function:cubic-bezier(0,.7,.99,.38);
 }
 
-@keyframes movimiento{
-
-    from { position:relative;
-           bottom:-100%;
-        }
-    
-    to{
-        bottom: 40%;
-    }
-}
-
 .materiales_marca{
     font-family:Arial, Helvetica, sans-serif;
     padding-left: 50px;
@@ -154,17 +142,60 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     font-weight: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size:35px;
-    box-sizing: border-box;   
-    margin-top: 100px;
-    margin-bottom: 30px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-bottom: -5%;
+    transition: .8s;
+    color:var(--dark-blue);
+    display:inline-block;
+    text-align: center;
+    padding: 2px;
+    margin-left:520px;
+    margin-right:150px;
+    border-color:rgb(37, 0, 250);
     transition: 2s;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: left-right;
+    animation-timing-function:cubic-bezier(.04,.37,1,.7);
 }
 
+/*
+.servicio_electricidad:after{
+    content:"";
+    width:100%;
+    height: 4px;
+    bottom:0;
+    left:0;
+    background: dodgerblue;
+}
+
+*/
+
 .reparaciones_marca_1:hover{
+    /*background: rgb(68, 124, 228);*/
     transition:ease 1.5s;
     text-decoration: none;
     transform:scale(1.3);
-    cursor: default;
+    cursor:default;  
+}
+
+.reparaciones_marca_1:after{
+    content:"";
+    position: absolute;
+    width:100%;
+    height: 4px;
+    bottom:0;
+    left:0;
+    background-color: rgb(62, 113, 224);
+    transform: scale(0);
+    transform-origin: bottom right;
+    transition:transform 0.6s ease-out;
+}
+
+.reparaciones_marca_1:hover:after{
+    transform: scale(1);
+    transform-origin: bottom left;
 }
 
 /*
@@ -195,17 +226,47 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
-    margin-top: -5%;
+    margin-top: -30%;
     margin-bottom: -5%;
+    transition: .8s;
+    color:var(--dark-blue);
+    display:inline-block;
+    text-align: center;
+    padding: 2px;
+    margin-left:520px;
+    margin-right:150px;
+    border-color:rgb(37, 0, 250);
     transition: 2s;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: left-right;
+    animation-timing-function:cubic-bezier(.04,.37,1,.7);
 }
 
 .instalaciones_marca_1:hover{
-    transition-timing-function: ease;
+    /*background: rgb(68, 124, 228);*/
+    transition:ease 1.5s;
     text-decoration: none;
     transform:scale(1.3);
-    cursor: default;
-    transition-delay: ease-out;
+    cursor:default;  
+}
+
+.instalaciones_marca_1:after{
+    content:"";
+    position: absolute;
+    width:100%;
+    height: 4px;
+    bottom:0;
+    left:0;
+    background-color: rgb(62, 113, 224);
+    transform: scale(0);
+    transform-origin: bottom right;
+    transition:transform 0.6s ease-out;
+}
+
+.instalaciones_marca_1:hover:after{
+    transform: scale(1);
+    transform-origin: bottom left;
 }
 
 .repuestos_marca_1{
@@ -214,17 +275,47 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     font-size:35px;
     box-sizing: border-box;
     margin-top: 10%;
-    margin-left: 20px;
+    margin-bottom: -5%;
+    transition: .8s;
+    color:var(--dark-blue);
+    display:inline-block;
+    text-align: center;
+    padding: 2px;
+    margin-left:560px;
+    margin-right:150px;
+    border-color:rgb(37, 0, 250);
     transition: 2s;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: left-right;
+    animation-timing-function:cubic-bezier(.04,.37,1,.7);
 }
 
 .repuestos_marca_1:hover{
+    /*background: rgb(68, 124, 228);*/
     transition:ease 1.5s;
     text-decoration: none;
     transform:scale(1.3);
-    cursor: default;
+    cursor:default;  
 }
 
+.repuestos_marca_1:after{
+    content:"";
+    position: absolute;
+    width:100%;
+    height: 4px;
+    bottom:0;
+    left:0;
+    background-color: rgb(62, 113, 224);
+    transform: scale(0);
+    transform-origin: bottom right;
+    transition:transform 0.6s ease-out;
+}
+
+.repuestos_marca_1:hover:after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
 .tipos_instalaciones{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 50px;
