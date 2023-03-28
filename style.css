@@ -79,7 +79,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 
 .servicio_electricidad:hover{
     /*background: rgb(68, 124, 228);*/
-    transition:ease 1.5s;
+    transition: 1.5s;
     text-decoration: none;
     transform:scale(1.3);
     cursor:default;  
@@ -128,7 +128,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .servicio_trabajo{
-    height:120vh;
+    height:100vh;
     background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%),
     url(ELECTROMONTAJESARECO.png);
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     font-size:x-large;
     padding-bottom: 10px;
     padding-left: 40px; 
-    margin-top: 240px;
+    margin-top: 0px;
     animation-name:movimiento;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
@@ -181,7 +181,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     font-size:35px;
     box-sizing: border-box;
     margin-top: 10%;
-    margin-bottom: -5%;
+    margin-bottom: 8%;
     transition: .8s;
     color:var(--dark-blue);
     display:inline-block;
@@ -266,7 +266,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
-    margin-top: -1%;
+    margin-top: 5%;
     margin-bottom: 5%;
     transition: .8s;
     color:var(--dark-blue);
@@ -310,7 +310,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .instalaciones_trabajo{
-    height:90vh;
+    height:100vh;
     background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%),
     url(lampara.jpg);
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 
 
 .reparaciones_trabajo{
-    height:120vh;
+    height:100vh;
     background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
 }
 
@@ -374,7 +374,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .repuestos_trabajo{
-    height:120vh;
+    height:100vh;
     background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
 }
 
