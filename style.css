@@ -145,12 +145,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     color: rgb(0, 0, 0);
     text-align: center;
     width: 1350px;
-    height: 45vh;
+    height: 20vh;
     font-family:'Times New Roman';
     font-size:x-large;
     padding-bottom: 10px;
     padding-left: 40px; 
-    margin-top: 0px;
     animation-name:movimiento;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
@@ -215,7 +214,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 
 .reparaciones_marca_1:hover{
     /*background: rgb(68, 124, 228);*/
-    transition:ease 1.5s;
+    transition: 1.5s;
     text-decoration: none;
     transform:scale(1.3);
     cursor:default;  
@@ -223,15 +222,15 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 
 .reparaciones_marca_1:after{
     content:"";
-    position: absolute;
+    position:absolute;
     width:100%;
     height: 4px;
     bottom:0;
     left:0;
     background-color: rgb(62, 113, 224);
     transform: scale(0);
-    transform-origin: bottom right;
-    transition:transform 1s ease-out;
+    transform-origin:bottom right;
+    transition:transform 1s;
 }
 
 .reparaciones_marca_1:hover:after{
