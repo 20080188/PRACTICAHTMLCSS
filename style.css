@@ -266,18 +266,18 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .instalaciones_marca_1{
-    font-weight: Arial, Helvetica, sans-serif;
+    font-weight: Arial;
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 2%;
     transition: .8s;
     color:var(--dark-blue);
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:520px;
+    margin-left:560px;
     margin-right:150px;
     border-color:rgb(37, 0, 250);
     transition: 2s;
@@ -330,7 +330,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .repuestos_marca_1{
-    font-weight: Arial, Helvetica, sans-serif;
+    font-weight: Arial;
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
