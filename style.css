@@ -63,14 +63,14 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     position: relative;
     font-family: Arial;
     font-weight: 505;
-    font-size: 18px;
+    font-size: 19px;
     margin-top: 20%;
     margin-bottom: 50%;
     color:var(--dark-blue);
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:180px;
+    margin-left:110px;
     margin-right:150px;
     border-color:rgb(37, 0, 250);
     transition: 1s;
@@ -383,7 +383,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 
 .tipos_instalaciones{
     font-family: Arial;
-    color: white;
     padding-left: 50px;
     margin-top: 50px;
     font-size:medium;
