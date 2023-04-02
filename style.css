@@ -18,8 +18,6 @@ SECCIONES COMPLETAS: NOMBRE SÓLO.
 }
 */
 
-
-
 /*
 .hamburguesa{
     position:fixed;
@@ -70,8 +68,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:140px;
-    margin-right:155px;
+    margin-left:130px;
+    margin-right:156px;
     border-color:rgb(37, 0, 250);
     transition:.8s;
     animation-name:desplazamiento;
@@ -149,7 +147,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     height: 20vh;
     font-family:'Times New Roman';
     font-size:x-large;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-left: 0px; 
     animation-duration: .8s;
     animation-iteration-count: 1;
@@ -163,6 +161,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     transform:scale(1.3);
     cursor:default; 
     transition: .8s;
+    
 }
 
 .footer_trabajo{
