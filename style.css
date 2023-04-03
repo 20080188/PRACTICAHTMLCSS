@@ -157,11 +157,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .footer__marca:hover{
+    transition:.8s;
+    margin-left:100px;
     text-decoration: none;
-    transform:scale(1.3);
-    cursor:default; 
-    transition: .8s;
-    
+    transform:scale(1.1);
+    cursor:default;  
 }
 
 .footer_trabajo{
