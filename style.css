@@ -82,11 +82,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .servicio_electricidad:hover{
     /*background: rgb(68, 124, 228);*/
     transition:.8s;
-    margin-left:100px;
+    margin-left:175px;
     text-decoration: none;
     transform:scale(1.3);
     cursor:default;  
-    margin-left:190px;
+    
 }
 
 .servicio_electricidad:after{
@@ -411,11 +411,24 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .tipos_instalaciones:hover{
-    text-decoration: none;
-    transition:.8s;
-    transform:scale(1.1);
-    cursor:default;  
-    padding:0;
+    font-weight: Arial;
+    text-align: center;
+    font-size:35px;
+    box-sizing: border-box;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    transition: .8s;
+    color:var(--dark-blue);
+    display:inline-block;
+    text-align: center;
+    padding: 2px;
+    margin-left:560px;
+    margin-right:150px;
+    border-color:rgb(37, 0, 250);
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: left-right;
+    animation-timing-function:cubic-bezier(.04,.37,1,.7);
 }
 
 /*
