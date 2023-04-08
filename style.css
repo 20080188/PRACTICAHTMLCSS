@@ -82,11 +82,10 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .servicio_electricidad:hover{
     /*background: rgb(68, 124, 228);*/
     transition:.8s;
-    margin-left:10px;
+    margin-left:175px;
     text-decoration: none;
     transform:scale(1.3);
     cursor:default;  
-    
 }
 
 .servicio_electricidad:after{
@@ -407,7 +406,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     margin-top: 50px;
     font-size:medium;
     position:static;
-    margin-left: 12%;
+    margin-left:15%;
 }
 
 .tipos_instalaciones:hover{
