@@ -68,7 +68,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:130px;
+    margin-left:150px;
     margin-right:156px;
     border-color:rgb(37, 0, 250);
     transition:.8s;
@@ -140,24 +140,23 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .footer__marca{
-    color: rgb(0, 0, 0);
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 50%;
+    color:var(--dark-blue);
+    display:inline-block;
     text-align: center;
-    width: 1350px;
-    height: 20vh;
-    font-family:'Times New Roman';
-    font-size:x-large;
-    padding-bottom: 0px;
-    padding-left: 0px; 
+    padding: 2px;
+    margin-left:35%;
+    margin-right:156px;
+    transition:.8s;
     animation-duration: .8s;
     animation-iteration-count: 1;
-    animation-direction: bottom-top;
-    animation-timing-function:cubic-bezier(0,.7,.99,.38);
-    transition:.8s;
 }
 
 .footer__marca:hover{
     transition:.8s;
-    margin-left:100px;
     text-decoration: none;
     transform:scale(1.1);
     cursor:default;  
@@ -169,11 +168,23 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .materiales_marca{
-    font-family:Arial, Helvetica, sans-serif;
-    padding-left: 50px;
-    margin-top: 5%;
-    font-size: medium;
-    margin-left: 32%;
+    position: relative;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: large;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 50%;
+    color:var(--dark-blue);
+    display:inline-block;
+    text-align: center;
+    padding: 2px;
+    margin-left:30%;
+    margin-right:156px;
+    transition:.8s;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    
 }
 
 .materiales_marca:hover{
@@ -187,11 +198,19 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .reparaciones_marca{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 5%;
-    margin-bottom:50px;
-    margin-left: 100px;
-    font-size:medium;
+    margin-top:5%;
+    position: relative;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: large;
+    text-align: center;
+    transition:.8s;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    display:inline-block;
+    padding: 2px;
+    margin-left:130px;
+    margin-right:156px;
 }
 
 .reparaciones_marca:hover{
@@ -401,12 +420,19 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .tipos_instalaciones{
+    margin-top:5%;
+    position: relative;
     font-family: Arial;
-    padding-left: 50px;
-    margin-top: 50px;
-    font-size:medium;
-    position:static;
-    margin-left:15%;
+    font-weight: 100;
+    font-size: large;
+    text-align: center;
+    transition:.8s;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    display:inline-block;
+    padding: 2px;
+    margin-left:200px;
+    margin-right:156px;
 }
 
 .tipos_instalaciones:hover{
@@ -414,7 +440,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     transition:.8s;
     transform:scale(1.1);
     cursor:default;  
-    padding:0;
 }
 
 /*
