@@ -143,16 +143,16 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     position: relative;
     font-family: Arial;
     font-size: 20px;
-    margin-bottom: 50%;
     color:var(--dark-blue);
     display:inline-block;
     text-align: center;
     padding: 2px;
     margin-left:35%;
-    margin-right:156px;
+    margin-right: 20%;
     transition:.8s;
     animation-duration: .8s;
     animation-iteration-count: 1;
+    
 }
 
 .footer__marca:hover{
