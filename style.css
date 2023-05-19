@@ -92,7 +92,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     content:"";
     position: absolute;
     width:100%;
-    height: 4px;
+    height: 2px;
     bottom:0;
     left:0;
     background-color: rgb(62, 113, 224);
@@ -266,14 +266,14 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 
 .reparaciones_marca_1:after{
     content:"";
-    position:absolute;
+    position: absolute;
     width:100%;
-    height: 4px;
+    height: 2px;
     bottom:0;
     left:0;
     background-color: rgb(62, 113, 224);
     transform: scale(0);
-    transform-origin:bottom right;
+    animation: left - right;
     transition:transform 1s;
 }
 
@@ -341,13 +341,13 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     content:"";
     position: absolute;
     width:100%;
-    height: 4px;
+    height: 2px;
     bottom:0;
     left:0;
     background-color: rgb(62, 113, 224);
     transform: scale(0);
-    transform-origin: bottom right;
-    transition:transform 1s ease-out;
+    animation: left - right;
+    transition:transform 1s;
 }
 
 .instalaciones_marca_1:hover:after{
@@ -364,7 +364,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     background-attachment:fixed;
     background-position: center;
 }
-
 
 .reparaciones_trabajo{
     height:100vh;
@@ -400,7 +399,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     content:"";
     position: absolute;
     width:100%;
-    height: 4px;
+    height: 2px;
     bottom:0;
     left:0;
     background-color: rgb(62, 113, 224);
