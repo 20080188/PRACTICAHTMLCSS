@@ -147,9 +147,9 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-top: 15%;
-    margin-left:28%;
-    margin-right: 20%;
+    margin-top: 12%;
+    margin-left:14.5%;
+   
     transition:.8s;
     animation-duration: .8s;
     animation-iteration-count: 1s;
@@ -173,8 +173,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .materiales_marca{
     position: relative;
     font-family: Arial;
-    font-weight: 200;
-    font-size:x-large;
+    font-size:large;
     text-align: center;
     margin-top: 8%;
     margin-bottom: 50%;
@@ -182,8 +181,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:25%;
-    margin-right:156px;
+    margin-left:27%;
     transition:.8s;
     animation-name:movimiento;
     animation-duration: .8s;
@@ -203,10 +201,9 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .reparaciones_marca{
-    margin-top:5%;
+    margin-top:2%;
     position: relative;
     font-family: Arial;
-    font-weight: 100;
     font-size: large;
     text-align: center;
     transition:.8s;
@@ -231,7 +228,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .reparaciones_marca_1{
     font-weight: Arial;
     text-align: center;
-    font-size:35px;
+    font-size:45px;
     box-sizing: border-box;
     margin-top: 10%;
     margin-bottom: 7%;
@@ -240,14 +237,12 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:520px;
-    margin-right:150px;
+    margin-left:37%;
     border-color:rgb(37, 0, 250);
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-direction: left-right;
     animation-timing-function:cubic-bezier(.04,.37,1,.7);
-    
 }
 
 /*
@@ -317,7 +312,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .instalaciones_marca_1{
     font-weight: Arial;
     text-align: center;
-    font-size:45px;
+    font-size: 45px;
     box-sizing: border-box;
     margin-top: 6%;
     margin-bottom: 5%;
@@ -326,7 +321,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:560px;
+    margin-left: 37%;
     margin-right:150px;
     border-color:rgb(37, 0, 250);
     animation-duration: 1.5s;
@@ -381,7 +376,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .repuestos_marca_1{
     font-weight: Arial;
     text-align: center;
-    font-size:35px;
+    font-size: 45px;
     box-sizing: border-box;
     margin-top: 5%;
     margin-bottom: -5%;
@@ -390,8 +385,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:560px;
-    margin-right:150px;
+    margin-left:39%;
+
     border-color:rgb(37, 0, 250);
 }
 
@@ -430,7 +425,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .tipos_instalaciones{
     position: relative;
     font-family: Arial;
-    font-weight: 100;
     font-size: large;
     text-align: center;
     transition:.8s;
