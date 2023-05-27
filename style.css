@@ -112,6 +112,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 }
 
+.servicio_electricidad:hover:after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
 /*
 .servicio_electricidad:after{
     content:"";
@@ -123,11 +128,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 */
-
-.servicio_electricidad:hover:after{
-    transform: scale(1);
-    transform-origin: bottom left;
-}
 
 .servicio_trabajo{
     height:100vh;
@@ -147,7 +147,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-top: 13%;
+    margin-top: 18%;
     margin-left:35%;
     margin-right: 20%;
     transition:.8s;
@@ -161,6 +161,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     transform:scale(1.1);
     cursor:default;  
 }
+
 
 .footer_trabajo{
     height:95vh;
@@ -184,9 +185,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     margin-left:25%;
     margin-right:156px;
     transition:.8s;
+    animation-name:movimiento;
     animation-duration: .8s;
-    animation-iteration-count: 1s;
-    
+    animation-iteration-count: 1;
+    animation-direction: left-right;
+    animation-timing-function:cubic-bezier(.04,.37,1,.7);
 }
 
 .materiales_marca:hover{
@@ -197,6 +200,35 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     animation-duration:.8s;
     animation-iteration-count: 2;
     transition:transform .8s;
+}
+
+.materiales_marca:after{
+    content:"";
+    position: absolute;
+    width:100%;
+    height: 2px;
+    bottom:0;
+    left:0;
+    background-color: rgb(62, 113, 224);
+    transform: scale(0);
+    animation: left - right;
+    transition:transform 1s;
+}
+
+@keyframes movimiento{
+
+    from { 
+           transform: translate(-2000px);
+    }
+
+    to {
+           transform: translateX(10px);
+}
+}
+
+.materiales_marca:hover:after{
+    transform: scale(1);
+    transform-origin: bottom left;
 }
 
 .reparaciones_marca{
