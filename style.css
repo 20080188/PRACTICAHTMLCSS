@@ -152,6 +152,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     transition:.8s;
     animation-duration: .8s;
     animation-iteration-count: 1;
+    margin-bottom: -50%;
 }
 
 .footer__marca:hover{
@@ -163,7 +164,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 
 .footer_trabajo{
     height:45vh;
-    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);;
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);
+    margin-bottom: -10%;
 }
 
 .materiales_marca{
@@ -313,8 +315,8 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     text-align: center;
     font-size:35px;
     box-sizing: border-box;
-    margin-top: 8%;
-    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 5%;
     transition: .8s;
     color:var(--dark-blue);
     display:inline-block;
@@ -363,6 +365,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     background-size: cover;
     background-attachment:fixed;
     background-position: center;
+    margin-bottom: -9.55%;
 }
 
 .reparaciones_trabajo{
