@@ -147,12 +147,12 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
+    margin-top: 13%;
     margin-left:35%;
     margin-right: 20%;
     transition:.8s;
     animation-duration: .8s;
-    animation-iteration-count: 1;
-    margin-bottom: -50%;
+    animation-iteration-count: 1s;
 }
 
 .footer__marca:hover{
@@ -163,16 +163,17 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 }
 
 .footer_trabajo{
-    height:45vh;
-    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%);
+    height:80vh;
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%),
+    url(cablesinstalacioneselectricasfooter.jpg);
     margin-bottom: -10%;
 }
 
 .materiales_marca{
     position: relative;
     font-family: Arial;
-    font-weight: 100;
-    font-size: large;
+    font-weight: 200;
+    font-size:x-large;
     text-align: center;
     margin-top: 8%;
     margin-bottom: 50%;
@@ -180,11 +181,11 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-left:31%;
+    margin-left:25%;
     margin-right:156px;
     transition:.8s;
     animation-duration: .8s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 1s;
     
 }
 
@@ -420,12 +421,10 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .repuestos_trabajo{
     height:100vh;
     background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%),
-    url(image.png);
-    
+    url(redeselectricas.jpg);
 }
 
 .tipos_instalaciones{
-    margin-top:5%;
     position: relative;
     font-family: Arial;
     font-weight: 100;
