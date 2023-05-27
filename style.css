@@ -142,13 +142,13 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .footer__marca{
     position: relative;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 30px;
     color:var(--dark-blue);
     display:inline-block;
     text-align: center;
     padding: 2px;
-    margin-top: 18%;
-    margin-left:35%;
+    margin-top: 15%;
+    margin-left:28%;
     margin-right: 20%;
     transition:.8s;
     animation-duration: .8s;
@@ -200,35 +200,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     animation-duration:.8s;
     animation-iteration-count: 2;
     transition:transform .8s;
-}
-
-.materiales_marca:after{
-    content:"";
-    position: absolute;
-    width:100%;
-    height: 2px;
-    bottom:0;
-    left:0;
-    background-color: rgb(62, 113, 224);
-    transform: scale(0);
-    animation: left - right;
-    transition:transform 1s;
-}
-
-@keyframes movimiento{
-
-    from { 
-           transform: translate(-2000px);
-    }
-
-    to {
-           transform: translateX(10px);
-}
-}
-
-.materiales_marca:hover:after{
-    transform: scale(1);
-    transform-origin: bottom left;
 }
 
 .reparaciones_marca{
@@ -346,7 +317,7 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 .instalaciones_marca_1{
     font-weight: Arial;
     text-align: center;
-    font-size:35px;
+    font-size:45px;
     box-sizing: border-box;
     margin-top: 6%;
     margin-bottom: 5%;
