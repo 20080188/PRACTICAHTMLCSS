@@ -39,6 +39,18 @@ SECCIONES COMPLETAS: NOMBRE SÓLO.
 ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
 */
 
+.hamburguesa{
+    position:fixed;
+    top:38px;
+    right:30px;
+    width:40px;
+    height:40px;
+    background:#fff;
+    cursor: pointer;
+    border-radius:10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
 .titulo_marca_1{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 60px;
@@ -566,12 +578,28 @@ margin-right:100%;
 
 */
 
+/*
 .nav-menu{
     display: flex;
     margin-right: 80px;
     list-style: none;
     font-family:Arial;
     transition:ease 1.5s;
+}
+
+*/
+
+.nav-menu{
+    position:fixed;
+    top: 0;
+    right:0;
+    width:30vw;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    transition: transform .3 ease-in-out;
 }
 
 .nav-menu-item{
