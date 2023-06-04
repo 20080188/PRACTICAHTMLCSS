@@ -1,12 +1,12 @@
 
-const hamburguesa = document.querySelector(".hamburguesa");
+const header = document.querySelector(".header");
 const menu = document.querySelector(".nav-menu");
 
 
-console.log(hamburguesa);
-console.log(menu);
+console.log(header)
+console.log(menu)
 
-hamburguesa.addEventListener("click", () =>{
+header.addEventListener("click", () =>{
     menu.classList.toggle("spread");
 });
 
