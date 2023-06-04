@@ -7,8 +7,15 @@ console.log(hamburguesa)
 console.log(menu)
 
 hamburguesa.addEventListener("click", () =>{
-    menu.classList.toggle("spread");
+    menu.classList.toggle("spread")
+
 });
+
+    window.addEventListener("click", e=>{
+
+        console.log(e.target);
+    }) 
+
 
 
 
