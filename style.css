@@ -29,14 +29,17 @@ SECCIONES COMPLETAS: NOMBRE SÓLO.
     cursor:pointer;
     border-radius: 100 %;
 }
+
 */
 
 /*
+
 .bg-dark{
     --bs-bg-opacity: .5 !important;
 }
 
 ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
+
 */
 
 .header{
@@ -52,8 +55,6 @@ ANOTADO EN PRIMERA PÁGINA. (BUSCAR INFORMACIÓN SOBRE SU UTILIDAD).
     margin: 0;
     padding:0;
 }
-
-
 
 .menu-navegacion{
     display:flex;

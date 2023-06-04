@@ -1,4 +1,3 @@
-
 const hamburguesa = document.querySelector(".hamburguesa");
 const menu = document.querySelector(".nav-menu");
 
@@ -12,6 +11,7 @@ hamburguesa.addEventListener("click", () =>{
 });
 
     window.addEventListener("click", e=>{
+        if(menu.classList.contains("spread"))
 
         console.log(e.target);
     }) 
