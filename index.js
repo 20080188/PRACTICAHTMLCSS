@@ -1,6 +1,17 @@
-/*const navToggle = document.querySelector(".nav-toggle")
-const navMenu = document.querySelector("-nav-menu")
+const hamburguesa = document.querySelector(".hamburguesa");
+const menu = document.querySelector("menu-navegacion");
 
+
+
+
+
+
+
+
+
+
+
+/*
 navToggle.addEventListener("click", ()  =>{
 
 navMenu.classList.toggle("nav-menu_visible")  
