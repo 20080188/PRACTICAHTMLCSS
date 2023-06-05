@@ -1,8 +1,8 @@
-const hamburguesa = document.querySelector(".hamburguesa");
+const hamburguesas = document.querySelector(".hamburguesa");
 const menu = document.querySelector(".menu-navegacion");
 
 
-console.log(hamburguesa)
+console.log(hamburguesas)
 console.log(menu)
 
 
